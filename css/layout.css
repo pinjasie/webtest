@@ -1,0 +1,54 @@
+/* layout-CSS-tiedosto indexille */
+
+
+body { /* tämä osio muokkaa indexin bodya ja sen taustaa, väriä, fonttia ym */
+    background-color: rgb(59, 59, 59);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+header {
+margin-top: 50px;
+border: 4px;
+border-color: gold;
+text-align: right;
+}
+p { /* tämä muokkaa paragrapheja */
+    font-size: 18px;
+    color: rgb(222, 222, 223);
+    font-style: normal;
+    text-align: center;
+}
+h1 { /* h1-osio */
+font-weight: 500;
+font-stretch: semi-condensed;
+font-size: 45px;
+color: rgb(193, 245, 228);
+text-align: center;
+
+}
+h2 { /* h2-osio */
+    font-weight: 500;
+    font-stretch: semi-condensed;
+    font-size: 45px;
+    color: rgb(193, 245, 228);
+    text-align: center;
+
+}
+li { /*sivulla oleva lista */
+    color: rgb(222, 222, 223);
+    font-size: 18px;
+    list-style-type: none;
+    white-space: pre-wrap;
+    text-align: justify;
+    display: inline;
+    border: 3px;
+    border-color: blueviolet;
+}
+img { /* kuvan säädöt */
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width: 50%;
+    float: right 
+}
